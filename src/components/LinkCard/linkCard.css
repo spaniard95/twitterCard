@@ -1,0 +1,38 @@
+.linkCard {
+    width:550px;
+    margin: auto;
+
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: rgba(221, 221, 223, 0.835);
+}
+
+.linkCard:hover {
+    background-color: rgb(228, 226, 226);
+}
+
+.link-img {
+    width: 100%;
+    
+    border: 2px solid;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.link-info {
+    padding: 10px;
+}
+
+.link-text {
+    padding-bottom: 5px;
+    font-family: Helvetica;
+    font-size: medium;
+    color: rgb(84, 84, 87);
+}
+
+.link {
+    font-family: Helvetica;
+    font-size: small;
+    color: rgb(84, 85, 87);
+}

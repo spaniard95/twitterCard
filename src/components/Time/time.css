@@ -1,0 +1,14 @@
+#time {
+    padding: 10px;
+    color: rgb(64, 63, 68);
+}
+
+#line {
+    border-bottom: 2px solid rgb(206, 204, 219);
+    width: 590px;
+    margin-bottom: 7px;
+}
+
+#time:hover {
+    text-decoration: underline;
+}

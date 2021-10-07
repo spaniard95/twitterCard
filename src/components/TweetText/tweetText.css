@@ -1,0 +1,11 @@
+.tweetText {
+    padding: 20px;
+    padding-bottom: 20px;
+    font-size:large;
+    font-family: Helvetica;
+}
+
+.tweetText:hover {
+    cursor:text;
+}
+

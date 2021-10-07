@@ -1,0 +1,41 @@
+
+.userAvatar {
+   margin-top: 10px; 
+}
+
+.avatar-img {
+    float:left;
+    margin-left: 10px;
+    padding-right: 0px;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.avatar-img:hover {
+    filter: brightness(85%);
+}
+
+.twitter-img {
+    float: right;
+    margin-right: 8px;
+    margin-top: 2px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.usernames {
+    margin-left: 60px;
+}
+
+.username {
+    font-family: Helvetica;
+    color: rgb(14, 5, 5);
+    font-size:18px;
+    text-decoration: none;
+}
+
+.username:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.stretch-button {
+    margin-top: 10px;
+    border: 1px solid;
+    border-color: rgb(199, 196, 199);
+    color: rgb(66, 138, 253);
+    border-radius: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 590px;
+    height:16px
+    
+}
+
+.stretch-button:hover {
+    background-color: rgb(209, 234, 241) ;
+}

@@ -1,0 +1,85 @@
+el{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    height: 20px;
+    width:fit-content;
+    color: rgb(114, 103, 103);
+    font-size: larger;
+    font-weight: 450;
+}
+
+el.like:before {
+    background-image: url("../../../assets/heart.png");
+    background-size: 23px 25px;
+    display: inline-block;
+    width: 24px; 
+    height: 19px;
+    content:"";
+}
+
+el.comment:before {
+    background-image: url("../../../assets/comment.png");
+    background-size: 23px 24px;
+    display: inline-block;
+    width: 24px; 
+    height: 19px;
+    content:"";
+}
+
+el.share:before {
+    background-image: url("../../../assets/share.png");
+    background-size: 23px 25px;
+    display: inline-block;
+    width: 24px; 
+    height: 19px;
+    content:"";
+}
+
+el.like:hover {
+    color: rgb(206, 27, 27);
+    text-decoration: underline;
+}
+
+el.share:hover {
+    color: rgb(46, 173, 85);
+    text-decoration: underline;
+}
+
+el.comment:hover {
+    color: rgb(58, 226, 238);
+    text-decoration: underline;
+}
+
+el.like:hover::before {
+    background-image: url("../../../assets/heart_hover.png");
+    background-size: 26px 26px;
+    display: inline-block;
+    width: 24px; 
+    height: 20px;
+    content:"";
+}
+
+el.comment:hover::before {
+    background-image: url("../../../assets/comment_hover.png");
+    background-size: 22px 22px;
+    display: inline-block;
+    width: 24px; 
+    height: 18px;
+    content:"";
+}
+
+el.share:hover::before {
+    background-image: url("../../../assets/share_hover.png");
+    background-size: 21px 28px;
+    display: inline-block;
+    width: 24px; 
+    height: 20px;
+    content:"";
+}
+
+
+
+
+
+
